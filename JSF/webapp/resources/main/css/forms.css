@@ -1,0 +1,130 @@
+/***** contact form *****/
+#contact-form {
+	position: relative;
+	vertical-align: top;
+	z-index: 1;
+	margin: 10px 0 0 0
+}
+
+#contact-form fieldset {
+	border: none;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+#contact-form label {
+	display: block;
+	min-height: 60px;
+	position: relative;
+}
+
+#contact-form label .label {
+	background: #dddbda;
+	display: inline-block;
+	padding: 6px 5px 6px 0;
+	overflow: hidden;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	float: left
+}
+
+#contact-form .message {
+	min-height: 284px;
+}
+
+#contact-form .message .label {
+	padding-bottom: 6px;
+	padding-right: 6px
+}
+
+#contact-form input,#contact-form textarea {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 8px 12px 10px;
+	margin: 0;
+	font-size: 13px;
+	color: #878787;
+	background: #fff;
+	outline: none;
+	border: none;
+	width: 265px;
+	box-shadow: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#contact-form input {
+	height: 16px
+}
+
+#contact-form .area .error {
+	float: left;
+}
+
+#contact-form textarea {
+	width: 504px;
+	height: 186px;
+	resize: none;
+	overflow: auto;
+}
+
+#contact-form .success {
+	display: none;
+	margin-bottom: 20px;
+	color: #000
+}
+
+#contact-form .error,#contact-form .empty {
+	color: #f00;
+	font-size: 11px;
+	line-height: 1.27em;
+	display: none;
+	overflow: hidden;
+	margin-bottom: 5px;
+	float: left;
+	width: 100%
+}
+
+.buttons {
+	position: absolute;
+	bottom: 0;
+	right: 1px
+}
+
+.buttons a {
+	cursor: pointer;
+	margin-left: 18px;
+}
+
+.text-form {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	float: left;
+	display: block;
+	width: 71px;
+	font-size: 13px;
+	line-height: 16px;
+	color: #878787;
+	margin-right: 15px;
+	padding-top: 10px;
+	text-align: right
+}
+
+@media only screen and (max-width: 995px) {
+	#contact-form textarea {
+		width: 375px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#contact-form input,#contact-form textarea {
+		width: 184px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#contact-form input,#contact-form textarea {
+		width: 303px;
+	}
+}
